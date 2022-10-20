@@ -1,0 +1,303 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: 'Handlee', cursive;
+    margin: 80px auto 40px;
+    color: navy;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #404040;
+  }
+
+h3{
+    font-family: 'Handlee', cursive;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+p{
+    color: #404040;
+    font-size: 1.3rem;
+}
+  
+  hr{
+    border-color: grey;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 10%;
+    margin: auto;
+  }
+
+.banner {
+    padding: 30px;
+    background-image: url('Bilder/banner.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    background-clip: inherit;
+}
+
+.heading{
+    margin-bottom: 50px;
+}
+
+.container-fluid{
+    --bs-gutter-x: 0;
+}
+
+.bannerlogo{
+    width: 40%;
+}
+
+a{
+    color: #120C7A;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FDDB31;
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.iconhead{
+    text-align: right;
+}
+
+a.Head_icon {
+    color: #fff;
+}
+
+a.Head_icon:hover {
+    color: #FDDB31;
+}
+
+.Head_icon{
+    font-size: 30px; 
+    margin: 10px;
+}
+
+.nav-item{
+    margin: 10px;
+}
+
+/* Second Section */
+#carousel{
+    margin: 80px;
+}
+.tales {
+    width: 100%;
+  }
+  .carousel-inner{
+    vertical-align: middle;
+    width:100%;
+    max-height: 300px !important;
+
+  }
+#icons{
+    text-align: center;
+    padding: 5% 10%;
+    position: relative;
+  }
+  
+  .fa-check-circle, .fa-coins, .fa-heart{
+    margin: 20px;
+    font-size: 4rem;
+    color: #120C7A;
+  }
+  
+  .fa-check-circle:hover, .fa-coins:hover, .fa-heart:hover{
+    color: #FBBCB7;
+  }
+  
+#kontakt{
+    background-color: navy;
+    color: white;
+    padding: 3% 0 5%;
+
+}
+
+#tatig{
+    padding: 20px 0 50px;
+}
+
+#tatig h3{
+    color: #120C7A;
+    font-size: 3rem;
+    padding: 50px 0 0;
+}
+
+#kontakt h3{
+    font-size: 3rem;
+    padding: 30px 50px;
+}
+
+#kontakt .fa-phone, #kontakt .fa-facebook, .fa-envelope{
+    margin: 20px;
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  #kontakt .fa-phone:hover, #kontakt .fa-envelope:hover{
+    margin: 20px;
+    font-size: 3rem;
+    color: #FBBCB7;
+  }
+  #kontakt .fa-facebook:hover{
+    color: #FDDB31;
+
+  }
+
+  .top{
+    position: absolute;
+    right: 5%;
+}
+
+.portrait{
+    width: 350px;
+    border-radius: 100%;
+    border: .5rem solid #120C7A;
+}
+
+.about_header{
+    text-align: left;
+}
+
+#motivation h3{
+    border: .1rem #120C7A;
+    border-style: solid none;
+    padding: 10px;
+    font-size: 2rem;
+    margin: 0 auto 30px;
+}
+
+.about_img{
+    width: 250px;
+    border-radius: 100%;
+    border: .5rem solid #120C7A;
+}
+
+#motivation .row{
+    margin: 0 auto 80px;
+}
+
+#aufgaben h1{
+    margin: 40px 0;
+}
+
+#aufgaben .fa-heart{
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: 1rem;
+    color: #FBBCB7;
+  }
+  
+#aufgaben .fa-heart:hover{
+    color: #120C7A;
+  }
+
+  .stark{
+    margin-left: 80px;
+  }
+
+
+  #tasks{
+    margin: 50px auto 0;
+    padding: 80px;
+    background-color: #FBBCB7;
+    color: #fff;
+
+  }
+
+  #tasks h1{
+    color: #fff;
+  }
+
+  #tasks h2{
+    color: #fff;
+  }
+
+  .task{
+    margin: 40px 0 10px;
+    font-size: 4rem;
+    color: white;
+  }
+
+  .task:hover{
+    color: #120C7A;
+  }
+
+  #einsatz{
+    padding: 90px 0;
+  }
+
+  #einsatz .fa-clock{
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: 1rem;
+    color: #FBBCB7;
+  }
+  
+#einsatz .fa-clock:hover{
+    color: #120C7A;
+  }
+
+  .umkreis{
+    width: 80%;
+    border-radius: 100%;
+    border: .5rem solid #120C7A;
+  }
+
+  #abrechnung{
+    padding: 80px 0;
+  }
+
+  .pricing{
+    margin: 20px;
+    font-size: 4rem;
+    color: #120C7A;
+  }
+  
+  .pricing:hover{
+    color: #FBBCB7;
+  }
+  
+
+  #zielgruppe .fa-check{
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: 1rem;
+    color: #FBBCB7;
+  }
+  
+#zielgruppe .fa-check:hover{
+    color: #120C7A;
+  }
+
+  #zielgruppe h3{
+    color: #120C7A;
+    font-size: 3rem;
+    padding: 60px 0 40px;
+}
+
+#zielgruppe{
+  padding-bottom: 60px;
+}
+
+#zielgruppe li{
+  padding-left: 20px;
+}
