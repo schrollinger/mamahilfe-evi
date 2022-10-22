@@ -7,7 +7,7 @@ h1{
     font-size: 5rem;
     font-family: 'Handlee', cursive;
     margin: 80px auto 40px;
-    color: navy;
+    color: #120C7A;
 }
 
 h2{
@@ -54,6 +54,10 @@ p{
     margin-bottom: 50px;
 }
 
+.heading h1{
+  color: #000;
+}
+
 .container-fluid{
     --bs-gutter-x: 0;
 }
@@ -63,12 +67,12 @@ p{
 }
 
 a{
-    color: #120C7A;
+    color: #FBBCB7;
     text-decoration: none;
 }
 
 a:hover{
-    color: #FDDB31;
+    color: #120C7A;
     text-decoration: none;
 }
 
@@ -83,7 +87,7 @@ a.Head_icon {
 }
 
 a.Head_icon:hover {
-    color: #FDDB31;
+    color: #120C7A;
 }
 
 .Head_icon{
@@ -125,7 +129,7 @@ a.Head_icon:hover {
   }
   
 #kontakt{
-    background-color: navy;
+    background-color: #FBBCB7;
     color: white;
     padding: 3% 0 5%;
 
@@ -155,7 +159,7 @@ a.Head_icon:hover {
   #kontakt .fa-phone:hover, #kontakt .fa-envelope:hover{
     margin: 20px;
     font-size: 3rem;
-    color: #FBBCB7;
+    color: #120C7A;
   }
   #kontakt .fa-facebook:hover{
     color: #FDDB31;
@@ -171,6 +175,10 @@ a.Head_icon:hover {
     width: 350px;
     border-radius: 100%;
     border: .5rem solid #120C7A;
+}
+
+.portrait:hover{
+  border: .5rem solid #FBBCB7;
 }
 
 .about_header{
@@ -190,6 +198,11 @@ a.Head_icon:hover {
     border-radius: 100%;
     border: .5rem solid #120C7A;
 }
+
+.about_img:hover{
+  border: .5rem solid #FBBCB7;
+}
+
 
 #motivation .row{
     margin: 0 auto 80px;
@@ -308,6 +321,18 @@ a.Head_icon:hover {
     width: 70%;
     margin: 0;
   }
+
+  .banner {
+    background-size: 130%;
+}
+
+#aufgaben .fa-heart{
+  margin: 10px 0 0 0;
+  font-size: 1.5rem;
+}
+#aufgaben h1{
+  margin: 50px 0 0 0;
+}
   
   .about_img, .portrait, .umkreis{
     width: 70%;
@@ -344,6 +369,7 @@ a.Head_icon:hover {
 
 h1{
   font-size: 4rem;
+  margin: 20px 0;
 }
 h2{
   font-size: 1.4rem;
@@ -379,7 +405,11 @@ h2{
   margin: 10px auto 40px;
 }
 
-#kontakt .fa-phone, .fa-facebook, .fa-envelope{
+#kontakt .fa-phone, #kontakt .fa-facebook, #kontakt .fa-envelope{
+  font-size: 2.5rem;
+}
+
+#kontakt .fa-phone:hover, #kontakt .fa-facebook:hover, #kontakt .fa-envelope:hover{
   font-size: 2.5rem;
 }
 
@@ -420,9 +450,9 @@ p, #kontakt h4{
   margin: 80px 0 0;
 }
 
-#aufgaben .strength{
-  margin: 10px 0 0 0;
-  font-size: 1.5rem;
+#aufgaben .fa-heart{
+  margin: 0;
+  font-size: 15rem;
 }
 
 .top{
