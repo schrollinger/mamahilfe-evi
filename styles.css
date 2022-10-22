@@ -301,3 +301,138 @@ a.Head_icon:hover {
 #zielgruppe li{
   padding-left: 20px;
 }
+
+/*tablet*/
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .bannerlogo{
+    width: 70%;
+    margin: 0;
+  }
+  
+  .about_img, .portrait, .umkreis{
+    width: 70%;
+    margin: 10px auto 40px;
+  }
+  #carousel{
+    margin: 50px 0;
+  }
+  .fa-li{
+    position: relative;
+    left: 0;
+  }
+  .about_header{
+    text-align: center;
+  }
+
+  .stark{
+    margin-left: 0;
+  }
+
+  p{
+    font-size: 1.4rem;
+  }
+
+  #motivation .last-row{
+    margin: 80px 0 0;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .banner {
+    background-size: 130%;
+}
+
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 1.4rem;
+}
+
+#aufgaben h1{
+  font-size: 3rem;
+  margin: 80px auto 20px;
+
+}
+
+#tasks h1, #einsatz h1, #abrechnung h1{
+  font-size: 3rem;
+  margin: 0 0 20px;
+
+}
+
+.task{
+  font-size: 2.5rem;
+}
+
+#zielgruppe h3, #tatig h3, #kontakt h3{
+  font-size: 2.5rem;
+}
+
+.bannerlogo{
+  width: 70%;
+  margin: 0;
+}
+
+.about_img, .portrait, .umkreis{
+  width: 70%;
+  margin: 10px auto 40px;
+}
+
+#kontakt .fa-phone, .fa-facebook, .fa-envelope{
+  font-size: 2.5rem;
+}
+
+
+.fa-check-circle, .fa-coins, .fa-heart{
+  font-size: 2.5rem;
+}
+
+#carousel{
+  margin: 50px 0;
+}
+
+#einsatz .fa-clock{
+  font-size: 1.5rem;
+}
+
+#abrechnung .pricing{
+  font-size: 2.5rem;
+}
+
+.fa-li{
+  position: relative;
+  left: 0;
+}
+.about_header{
+  text-align: center;
+}
+
+.stark{
+  margin-left: 0;
+}
+
+p, #kontakt h4{
+  font-size: 1.2rem;
+}
+
+#motivation .last-row{
+  margin: 80px 0 0;
+}
+
+#aufgaben .strength{
+  margin: 10px 0 0 0;
+  font-size: 1.5rem;
+}
+
+.top{
+  position: relative;
+  right: 2px;
+}
+
+#kontakt{
+  padding: 3% 0 10%;
+
+}
+
+}
